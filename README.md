@@ -7,7 +7,7 @@ Implementation of FreeEnhance. For details, see **[FreeEnhance: Tuning-Free Imag
 Please install [PyTorch](https://pytorch.org/) and download the [HPSv2](https://huggingface.co/datasets/ymhao/HPDv2) dataset. This codebase has been developed with python version 3.8, PyTorch version 2.2, CUDA 11.3 and diffusers 0.29.2. 
 
 ###  Single-node generating
-Run FreeEnhance with SDXL on a single GPU with the following command.
+Run FreeEnhance with SDXL on a single GPU with the following command, which can achieve 29.32 HPSv2 score in Table 1:
 ```
 python main_freeEnhance.py \
 --do_in_sbs \
